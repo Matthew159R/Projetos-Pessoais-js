@@ -15,8 +15,7 @@ formAddTodo.addEventListener('submit', event => {
           </li>
         `
         event.target.reset()
-        
-        localStorage.setItem('item', inputValue)
+       
     }
 })
 
