@@ -1,0 +1,32 @@
+.product {
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.price {
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.alert-secondary {
+    display: none;
+}
+
+.alert-warning {
+    display: none;
+}
+
+.sugestão {
+    background-color: rgb(209, 199, 199);
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input {
+    background: linear-gradient(azure, aliceblue);
+}
+
+ul {
+    list-style: none;
+}

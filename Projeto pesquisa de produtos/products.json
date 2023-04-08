@@ -1,0 +1,62 @@
+[
+    {
+        "Nome": "Teclado",
+        "Preço": 120
+    },
+    {
+        "Nome": "Mouse",
+        "Preço": 90
+    },
+    {
+        "Nome": "Notbook",
+        "Preço": 5000
+    },
+    {
+        "Nome": "Celular",
+        "Preço": 3000
+    },
+    {
+        "Nome": "Mouse-pad",
+        "Preço": 50
+    },
+    {
+        "Nome": "Controle de xbox",
+        "Preço": 150
+    },
+    {
+        "Nome": "Placa de vídeo",
+        "Preço": 800
+    },
+    {
+        "Nome": "Televisão",
+        "Preço": 5000
+    },
+    {
+        "Nome": "Moden",
+        "Preço": 80
+    },
+    {
+        "Nome": "Fone de ouvido",
+        "Preço": 50
+    },
+    {
+        "Nome": "MacBook",
+        "Preço": 10000
+    },
+    {
+        "Nome": "Máquina do tempo",
+        "Preço": 999999999999999999999999999999999999999999999999999999999999999999999999999
+    },
+    {
+        "Nome": "Motor de dobra espacial",
+        "Preço": 99999999999999
+    },
+    {
+        "Nome": "Equipamento de teletransporte quântico",
+        "Preço": 99999999999
+    },
+    {
+        "Nome": "Esfera de Dyson",
+        "Preço": 9999999999999999
+    }
+]
