@@ -1,0 +1,62 @@
+.out {
+    max-width: 100px;
+}
+
+body {
+    background: linear-gradient(90deg, aqua, pink, aquamarine);
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border: 2px solid purple;
+    background: linear-gradient(40deg, aqua, rgb(120, 171, 189), rgb(245, 189, 199));
+    border-radius: 20px;
+}
+input:focus {
+    border: 0;
+}
+
+button:hover {
+    background-color: rgb(26, 185, 132);
+}
+
+button {
+    background-color:aquamarine;
+    border: 3px solid rgb(128, 26, 43);
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.gif {
+    position: relative;
+    right: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    max-width: 400px;
+    border: 5px solid aqua;
+    animation: piscar 1s infinite;
+}
+
+
+  @keyframes piscar {
+    0% {
+      border-color: aqua;
+    }
+    33% {
+      border-color: rgb(25, 27, 138);
+    }
+    66% {
+      border-color: purple;
+    }
+    100% {
+      border-color: rgb(55, 175, 91);
+    }
+  }
+  
+  h1 {
+    color: purple;
+  }
