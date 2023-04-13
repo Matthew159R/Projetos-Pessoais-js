@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz | Quantas perguntas você consegue acertar nesse quiz sobre Java script?</title>
+</head>
+<body>
+    <div class="overlay d-none">
+        <div class="popup">
+          <h2>Deseja ver informações sobre as questões?</h2>
+          <div class="buttons">
+            <button class="sim">Sim</button>
+            <button class="nao">Não</button>
+          </div>
+        </div>
+      </div>
+      
+        <div class="intro py-3 bg-primary text-center">
+            <div class="container">
+            <h2 class="text-light display-3 my-4">QUIZ <img class="jsIcon" style="width: 15px;" src="https://raw.githubusercontent.com/cerebrobr/adesivos/master/view/javascript.png" alt=""></h2>
+            </div>
+        </div>
+
+
+  <div class="result py-4 d-none bg-light text-center container lead">
+    <p class="p">Você acertou <span class="text-primary display-4 p-3">0%</span> do quiz</p>
+  </div>
+
+  <div class="quiz py-4 bg-dark">
+    <div class="container">
+      <h2 class="my-5 text-white">Quantas dessas perguntas sobre javascript você consegue acertar?</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. "O que a função map faz?"</p>
+
+          <div class="card d-none card1" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Questão 1</h5>
+              <p class="card-text">O map() é um método para se gerar um novo array tendo como base outro array</p>
+              <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              Executa uma função para cada item do array
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B" checked>
+              Soma todos os dados do array
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="C" checked>
+              Executa uma função para cada item do array e cria um novo array
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="D" checked>
+              Essa função não existe
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. "O que o async await faz?"</p>
+
+          <div class="card d-none card2" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Questão 2</h5>
+              <p class="card-text">Async await significa que a funcão será assíncrona e await a função só irá terminar quando a promisse for resolvida</p>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function" target="_blank" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              Soma uma função a outra
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B" checked>
+              Concatena dois arrays
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="C" checked>
+              Torna uma função assíncrona e espera até que um request seja resolvido
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="D" checked>
+              Faz um request para um banco de dados ou api
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. "Qual método é usado para fazer um request?"</p>
+
+          <div class="card d-none card3" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Questão 3</h5>
+              <p class="card-text">Usamos o fetch para fazer requests https, exemplo: fetch('user.json')</p>
+              <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/fetch" target="_blank" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              request.open()
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B" checked>
+              then()
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="C" checked>
+              try()
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="D" checked>
+              fetch()
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. "O que é um end point?"</p>
+
+          <div class="card d-none card4" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Questão 4</h5>
+              <p class="card-text">End point é um link para onde queremos fazer o request, igual na questão acima, exemplos: fecth('end-point')</p>
+              <a href="https://tecnoblog.net/responde/o-que-e-um-endpoint-em-ti/" target="_blank" id="ir" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              Um método js
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B" checked>
+              Uma forma de salvar códigos js
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="C" checked>
+              Um link para onde fazemos um request
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="D" checked>
+              Um método para fazer request
+            </label>
+          </div>
+        </div>
+
+        
+
+        
+        <div class="text-center">
+          <button class=" buttonRemove btn bg-primary text-light">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
