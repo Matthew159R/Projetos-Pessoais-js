@@ -247,3 +247,54 @@ footer {
     background: linear-gradient(rgb(59, 50, 50), black, #A0522D);
 }
 
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logoNavBar {
+      margin-top: 10px;
+    }
+  
+    .linkNavBar {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: block;
+      text-align: center;
+    }
+  
+    .title-header {
+      font-size: 36px;
+    }
+  
+    .paragraph-header {
+      font-size: 18px;
+    }
+  
+    .card {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Para telas maiores que 768 pixels */
+  @media (min-width: 769px) {
+    .mainCoffes {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .titleSectionCoffes {
+      text-align: center;
+    }
+  
+    .coffes {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+  
+    .cappuccinoContainer {
+      margin-right: 20px;
+    }
+  }
