@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#693909, #A0522D, #cc8a49);
+    overflow: auto;
+    cursor: url('/imgs/cursor.png'), auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cc8a49;
+    box-sizing: border-box;
+    padding: 0 300px 0 0;
+}
+
+.linkNavBar {
+    text-decoration: none;
+    height: 30px;
+    color: brown;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+}
+
+.Café-Parisien {
+    background-color: brown;
+    height: 50px;
+    padding: 6px;
+    margin-right: 80px;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+}
+
+.linkNavBar:hover {
+    color: white;
+}
+
+body {
+    background: linear-gradient(#693909, #A0522D, #cc8a49);
+
+}
+
+.next, .back {
+    display: none;
+}
+
+button:hover {
+    background-color: #cc8a49;
+    color: wheat;
+}
+
+#imgsCarousel {
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 80px 0 0 0;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display:flex;
+}
+
+.carouselContainer {
+    display: flex;
+}
+
+@keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
+
+.container1 {
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 0 20px;
+    background: linear-gradient(rgb(48, 42, 42), rgb(82, 81, 81));
+
+} 
+
+.presentation {
+    width: 300px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.coffeHappy {
+    height: 300px;
+    width: 320px;
+    margin-right: 100px;
+    border: 3px solid aquamarine;
+    border-radius: 20px;
+}
+
+.titlePresentation {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+.paragraphPresentation {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    width: 400px;
+}
+
+.benefits {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.containerCoffes {
+    display: flex;
+    justify-content: space-around;
+    height: 1050px;
+    width: 1340px;
+    background: linear-gradient(90deg, rgb(48, 42, 42), rgb(82, 81, 81));
+    margin: 50px 20px 0 10px;
+    box-sizing: border-box;
+    padding: 40px 60px 40px 60px;
+    flex-wrap: wrap;
+}
+
+
+.cappuccino {
+    background: linear-gradient(#693909, #A0522D, #cc8a49);
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+}
+
+
+.imgCoffe {
+    height: 100%;
+    width: 200px;
+    border-radius: 40px 0 0 40px;
+}
+
+.paragraphCoffes {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+}
+
+  .buy {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(45deg, #693909 95%, #cc8a49 10%);
+    border: solid 2px orange;
+    border-radius: 40px 0 40px 0;
+    margin: 5px 0 0 160px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0 0 5px 0;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    animation: buyAnimationReverse 0.5s forwards;
+  }
+
+  .buy:hover {
+    animation: buyAnimation 0.5s forwards;
+    border: solid 3px orange;
+    color: white;
+  }
+
+
+
+  @keyframes buyAnimation {
+    0% {
+        background: linear-gradient(45deg, #693909 95%, #cc8a49 10%);
+    }
+    5% {
+        background: linear-gradient(45deg, #693909 90%, #cc8a49 10%);
+    }
+    10% {
+        background: linear-gradient(45deg, #693909 85%, #cc8a49 10%);
+    }
+    15% {
+        background: linear-gradient(45deg, #693909 80%, #cc8a49 10%);
+    }
+    20% {
+        background: linear-gradient(45deg, #693909 75%, #cc8a49 10%);
+    }
+    25% {
+        background: linear-gradient(45deg, #693909 70%, #cc8a49 10%);
+    }
+    30% {
+        background: linear-gradient(45deg, #693909 65%, #cc8a49 10%);
+    }
+    35% {
+        background: linear-gradient(45deg, #693909 60%, #cc8a49 10%);
+    }
+    40% {
+        background: linear-gradient(45deg, #693909 55%, #cc8a49 10%);
+    }
+    45% {
+        background: linear-gradient(45deg, #693909 50%, #cc8a49 10%);
+    }
+    50% {
+        background: linear-gradient(45deg, #693909 45%, #cc8a49 10%);
+    }
+    55% {
+        background: linear-gradient(45deg, #693909 40%, #cc8a49 10%);
+    }
+    60% {
+        background: linear-gradient(45deg, #693909 35%, #cc8a49 10%);
+    }
+    65% {
+        background: linear-gradient(45deg, #693909 30%, #cc8a49 10%);
+    }
+    70% {
+        background: linear-gradient(45deg, #693909 25%, #cc8a49 10%);
+    } 
+    75% {
+        background: linear-gradient(45deg, #693909 20%, #cc8a49 10%);
+    }
+    80% {
+        background: linear-gradient(45deg, #693909 15%, #cc8a49 10%);
+    }
+    85% {
+        background: linear-gradient(45deg, #693909 10%, #cc8a49 10%);
+    }
+    90% {
+        background: linear-gradient(45deg, #693909 5%, #cc8a49 10%);
+    }
+    100% {
+        background: linear-gradient(45deg, #693909 4%, #cc8a49 10%);
+    }
+  }
+
+  @keyframes buyAnimationReverse {
+    0% {
+        background: linear-gradient(45deg, #693909 4%, #cc8a49 10%);
+    }
+    5% {
+        background: linear-gradient(45deg, #693909 5%, #cc8a49 10%);
+    }
+    10% {
+        background: linear-gradient(45deg, #693909 10%, #cc8a49 10%);
+    }
+    15% {
+        background: linear-gradient(45deg, #693909 15%, #cc8a49 10%);
+    }
+    20% {
+        background: linear-gradient(45deg, #693909 20%, #cc8a49 10%);
+    }
+    25% {
+        background: linear-gradient(45deg, #693909 25%, #cc8a49 10%);
+    } 
+    30% {
+        background: linear-gradient(45deg, #693909 30%, #cc8a49 10%);
+    }
+    35% {
+        background: linear-gradient(45deg, #693909 35%, #cc8a49 10%);
+    }
+    40% {
+        background: linear-gradient(45deg, #693909 35%, #cc8a49 10%);
+    }
+    45% {
+        background: linear-gradient(45deg, #693909 40%, #cc8a49 10%);
+    }
+    50% {
+        background: linear-gradient(45deg, #693909 45%, #cc8a49 10%);
+    }
+    55% {
+        background: linear-gradient(45deg, #693909 50%, #cc8a49 10%);
+    }
+    60% {
+        background: linear-gradient(45deg, #693909 55%, #cc8a49 10%);
+    }
+    65% {
+         background: linear-gradient(45deg, #693909 65%, #cc8a49 10%);
+    }
+    70% {
+        background: linear-gradient(45deg, #693909 70%, #cc8a49 10%);
+    }
+    75% {
+        background: linear-gradient(45deg, #693909 75%, #cc8a49 10%);
+    }
+    80% {
+        background: linear-gradient(45deg, #693909 80%, #cc8a49 10%);
+    }
+    85% {
+        background: linear-gradient(45deg, #693909 85%, #cc8a49 10%);
+    }
+    90% {
+        background: linear-gradient(45deg, #693909 90%, #cc8a49 10%);
+    }
+    95% {
+        background: linear-gradient(45deg, #693909 95%, #cc8a49 10%);
+    }
+  }
+
+  footer {
+    background-color: rgb(248, 188, 76);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.newslatter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#email {
+    background-color: #693909;
+    border: 0;
+    height: 30px;
+    border-radius: 10px 0 10px 0;
+    padding: 0 0 0 10px;
+    color: white;
+}
