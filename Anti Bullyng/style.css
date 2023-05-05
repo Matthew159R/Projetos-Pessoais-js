@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*------------------------ Style navbar -----------------------*/
+
+header {
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 100px 0 0;
+    align-items: center;
+}
+.title-navbar-container {
+    display: inline-flex;
+}
+
+.title-navbar {
+    margin: 8px 0 0 0;
+    color: white;
+}
+
+.logo-navbar {
+    width: 50px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 10px 0 0 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-button {
+    width: 100px;
+    height: 50px;
+    margin: 10px 0 0;
+    background-color: yellow;
+    font-size: 18px;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+/*------------------------ Apresentação do site -----------------------*/
+body {
+    background-color: rgb(34, 31, 31);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 400px;
+    margin: 0 0 0 120px;
+}
+
+.main-content-button {
+    width: 140px;
+    height: 40px;
+    background-color: aquamarine;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.main-content-button:hover {
+    transform: scale(1.1);
+  }
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.description-presenation {
+    width: 400px;
+    margin: 0 0 0 20px;
+    border-left: solid 5px orange;
+    padding: 0 0 0 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+}
+  
+.title-presentation {
+    font-size: 50px;
+    color: white;
+}
+
+#presentation {
+    display: flex;
+    gap: 180px;
+    background: linear-gradient(black, blue);
+    margin: 50px 0 0 0;
+}
+
+.img-presentation {
+    margin: 20px 0 0 0;
+    width: 450px;
+    border-radius: 10px;
+}
+
+/*---------------------Sessão de benefícios do combate ao bullyng-------------------*/
+
+.other-presentation {
+    margin: 50px 0 0 0;
+}
+
+.benefit {
+    color: white;
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(rgb(115, 226, 189), rgb(43, 150, 150));
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.benefit:hover {
+    animation-name: pulo;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes pulo {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+.title-benefit {
+    color: black;
+}
+
+.benefits-title {
+    color: white;
+}
+
+.benefit-img {
+    width: 100%;
+    height: 50%;
+    border: solid 1px yellow;
+}
+
+.benefits-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.benefit-paragraph {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.border {
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+    padding: 0 40px 0 40px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.statistic {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 50px;
+    width: 1200px;
+}
+
+.statistic-img {
+    border-right: solid 1px white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+strong {
+    background-color: black;
+}
+
+.title-statistic {
+    color: white;
+    font-size: 45px;
+    margin-top: 120px;
+}
