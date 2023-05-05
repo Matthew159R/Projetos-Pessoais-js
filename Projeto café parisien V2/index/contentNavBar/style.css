@@ -1,0 +1,866 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#693909, #A0522D, #cc8a49);
+    overflow: auto;
+    cursor: url('/imgs/cursor.png'), auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cc8a49;
+    box-sizing: border-box;
+    padding: 0 300px 0 0;
+}
+
+.linkNavBar {
+    text-decoration: none;
+    height: 30px;
+    color: brown;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+}
+
+.Café-Parisien {
+    background-color: brown;
+    height: 50px;
+    padding: 6px;
+    margin-right: 80px;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+}
+
+.linkNavBar:hover {
+    color: white;
+}
+
+body {
+    background: linear-gradient(#693909, #A0522D, #cc8a49);
+
+}
+
+.next, .back {
+    display: none;
+}
+
+button:hover {
+    background-color: #cc8a49;
+    color: wheat;
+}
+
+#imgsCarousel {
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 80px 0 0 0;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display:flex;
+}
+
+.carouselContainer {
+    display: flex;
+}
+
+@keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 0 20px;
+    border-top: solid 5px white;
+    border-radius: 5px;
+} 
+
+.presentation {
+    width: 300px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.coffeHappy {
+    height: 300px;
+    width: 320px;
+    margin-right: 100px;
+    border: 3px solid aquamarine;
+    border-radius: 20px;
+}
+
+.titlePresentation {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+.paragraphPresentation {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    width: 400px;
+}
+
+.benefits {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.containerCoffes {
+    display: flex;
+    justify-content: space-around;
+    height: 1050px;
+    width: 100%;
+    background: linear-gradient(white ,#caad8f,  rgb(214, 204, 204));
+    margin: 30px 50px 50px 0;
+    box-sizing: border-box;
+    padding: 40px 60px 40px 60px;
+    flex-wrap: wrap;
+
+}
+
+
+.cappuccino {
+    background: linear-gradient(#693909, #A0522D, #cc8a49);
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+}
+
+
+.imgCoffe {
+    height: 100%;
+    width: 200px;
+    border-radius: 40px 0 0 40px;
+}
+
+.paragraphCoffes {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+}
+
+  .buy {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(45deg, #693909 95%, #cc8a49 10%);
+    border: solid 2px orange;
+    border-radius: 40px 0 40px 0;
+    margin: 5px 0 0 160px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0 0 5px 0;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    animation: buyAnimationReverse 0.5s forwards;
+  }
+
+  .buy:hover {
+    animation: buyAnimation 0.5s forwards;
+    border: solid 3px orange;
+    color: white;
+  }
+
+
+
+  @keyframes buyAnimation {
+    0% {
+        background: linear-gradient(45deg, #693909 95%, #cc8a49 10%);
+    }
+    5% {
+        background: linear-gradient(45deg, #693909 90%, #cc8a49 10%);
+    }
+    10% {
+        background: linear-gradient(45deg, #693909 85%, #cc8a49 10%);
+    }
+    15% {
+        background: linear-gradient(45deg, #693909 80%, #cc8a49 10%);
+    }
+    20% {
+        background: linear-gradient(45deg, #693909 75%, #cc8a49 10%);
+    }
+    25% {
+        background: linear-gradient(45deg, #693909 70%, #cc8a49 10%);
+    }
+    30% {
+        background: linear-gradient(45deg, #693909 65%, #cc8a49 10%);
+    }
+    35% {
+        background: linear-gradient(45deg, #693909 60%, #cc8a49 10%);
+    }
+    40% {
+        background: linear-gradient(45deg, #693909 55%, #cc8a49 10%);
+    }
+    45% {
+        background: linear-gradient(45deg, #693909 50%, #cc8a49 10%);
+    }
+    50% {
+        background: linear-gradient(45deg, #693909 45%, #cc8a49 10%);
+    }
+    55% {
+        background: linear-gradient(45deg, #693909 40%, #cc8a49 10%);
+    }
+    60% {
+        background: linear-gradient(45deg, #693909 35%, #cc8a49 10%);
+    }
+    65% {
+        background: linear-gradient(45deg, #693909 30%, #cc8a49 10%);
+    }
+    70% {
+        background: linear-gradient(45deg, #693909 25%, #cc8a49 10%);
+    } 
+    75% {
+        background: linear-gradient(45deg, #693909 20%, #cc8a49 10%);
+    }
+    80% {
+        background: linear-gradient(45deg, #693909 15%, #cc8a49 10%);
+    }
+    85% {
+        background: linear-gradient(45deg, #693909 10%, #cc8a49 10%);
+    }
+    90% {
+        background: linear-gradient(45deg, #693909 5%, #cc8a49 10%);
+    }
+    100% {
+        background: linear-gradient(45deg, #693909 4%, #cc8a49 10%);
+    }
+  }
+
+  @keyframes buyAnimationReverse {
+    0% {
+        background: linear-gradient(45deg, #693909 4%, #cc8a49 10%);
+    }
+    5% {
+        background: linear-gradient(45deg, #693909 5%, #cc8a49 10%);
+    }
+    10% {
+        background: linear-gradient(45deg, #693909 10%, #cc8a49 10%);
+    }
+    15% {
+        background: linear-gradient(45deg, #693909 15%, #cc8a49 10%);
+    }
+    20% {
+        background: linear-gradient(45deg, #693909 20%, #cc8a49 10%);
+    }
+    25% {
+        background: linear-gradient(45deg, #693909 25%, #cc8a49 10%);
+    } 
+    30% {
+        background: linear-gradient(45deg, #693909 30%, #cc8a49 10%);
+    }
+    35% {
+        background: linear-gradient(45deg, #693909 35%, #cc8a49 10%);
+    }
+    40% {
+        background: linear-gradient(45deg, #693909 35%, #cc8a49 10%);
+    }
+    45% {
+        background: linear-gradient(45deg, #693909 40%, #cc8a49 10%);
+    }
+    50% {
+        background: linear-gradient(45deg, #693909 45%, #cc8a49 10%);
+    }
+    55% {
+        background: linear-gradient(45deg, #693909 50%, #cc8a49 10%);
+    }
+    60% {
+        background: linear-gradient(45deg, #693909 55%, #cc8a49 10%);
+    }
+    65% {
+         background: linear-gradient(45deg, #693909 65%, #cc8a49 10%);
+    }
+    70% {
+        background: linear-gradient(45deg, #693909 70%, #cc8a49 10%);
+    }
+    75% {
+        background: linear-gradient(45deg, #693909 75%, #cc8a49 10%);
+    }
+    80% {
+        background: linear-gradient(45deg, #693909 80%, #cc8a49 10%);
+    }
+    85% {
+        background: linear-gradient(45deg, #693909 85%, #cc8a49 10%);
+    }
+    90% {
+        background: linear-gradient(45deg, #693909 90%, #cc8a49 10%);
+    }
+    95% {
+        background: linear-gradient(45deg, #693909 95%, #cc8a49 10%);
+    }
+  }
+
+.contact {
+    border-right: solid 1px white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    height: 170px;
+}
+
+.newslatter {
+    border-left: solid 1px white;
+    height: 170px;
+    margin-bottom: 10px;
+    border-right: solid 1px white;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+
+.linksContack {
+    border-left: solid 1px white;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    padding: 10px;
+    height: 170px;
+}
+
+  footer {
+    background-color: rgb(248, 188, 76);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px 0 20px;
+}
+
+.newslatter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#email {
+    background-color: #693909;
+    border: 0;
+    height: 30px;
+    border-radius: 10px 0 10px 0;
+    padding: 0 0 0 10px;
+    color: white;
+}
+
+.container-title-cafes {
+    margin-top: 50px;
+    background-color: goldenrod;
+    box-sizing: border-box;
+    padding-left: 465px;
+    display: flex;
+    gap: 20px;
+}
+
+.title-nossos-cafes {
+    color: white;
+}
+
+.img-title-coffes {
+    width: 40px;
+}
+.foods-section {
+    margin-bottom: 50px;
+}
+.food {
+    width: 500px;
+    height: 390px;
+    background-color: white;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+}
+
+.img-food {
+    width: 100%;
+    height: 200px;
+    border: solid 2px orange;
+}
+
+.container-foods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.buy-food {
+    width: 120px;
+    height: 40px;
+    margin: 0 0 0 320px;
+    border-radius: 2px;
+    display: inline;
+}
+
+.img-foods-title {
+    width: 40px;
+    height: 40px;
+}
+
+.title-foods-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.description-food {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+}
+
+/*-----------Responsividade--------------*/
+
+@media all and (max-width: 820px) {
+
+    .Café-Parisien {
+        display: block;
+    }
+    .containerHamburger {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        right: 35px;
+      }
+      .Café-Parisien {
+        margin-right: 380px;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+    
+      .contentHamburger {
+        opacity: 1; 
+        animation: fadein 1s; 
+        background: linear-gradient(#693909, #cc8a49, #302f2f);
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        top: 40px;
+        left: 300px;
+        border-radius: 100px 0 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        border: 4px solid #74400c;
+        display: none;
+        z-index: 9999;
+      }
+      
+      .linkHamburger {
+        text-decoration: none;
+        color: white;
+        background-color: #74400c;
+        width: 100%;
+        padding-left: 110px;
+      }
+    
+      .logoHamburger {
+        border: 3px solid green;
+        border-radius: 50%;
+        padding: 1px;
+      }
+    
+      .titleHamburger {
+        background-color: brown;
+        font-family: 'Parisienne', cursive;
+        color: white;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+    
+      nav {
+        box-sizing: border-box;
+        padding: 0 20px;
+      }
+
+    .presentation {
+        height: 500px;
+        padding: 20px;
+    }
+    
+    
+    @keyframes fadein {
+        from {opacity: 0;} 
+        to {opacity: 1;} 
+    }
+    
+    @keyframes fadein2 {
+        from {opacity: 1;}
+        to {opacity: 0;}
+    }
+    
+    .linkNavBar {
+        display: none;
+    }
+    .Café-Parisien {
+        display: block;
+    }
+
+    .containerCoffes {
+        height: 2000px;
+    }
+
+    .container1 {
+        height: 600px;
+        
+    }
+
+    .carousel {
+        width: 400px;
+        height: 400px;
+        margin-right: 50px;
+    }
+    
+    #imgsCarousel {
+        width: 100%;
+        height: 100%;
+    }
+
+    .presentation {
+        width: 300px;
+        height: 200px;
+        margin: 0 0 0 px;
+    }
+
+    .coffeHappy {
+        width: 100%;
+        height: 200px;
+    }
+
+    .paragraphPresentation {
+        width: 300px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 390px) {
+
+    .Café-Parisien {
+        display: block;
+    }
+    .containerHamburger {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        left: 13px;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+    
+      .contentHamburger {
+        opacity: 1; 
+        animation: fadein 1s; 
+        background: linear-gradient(#693909, #cc8a49, #302f2f);
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        top: 40px;
+        left: 10px;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        border: 4px solid #74400c;
+        display: none;
+        z-index: 9999;
+      }
+      
+      .linkHamburger {
+        text-decoration: none;
+        color: white;
+        background-color: #74400c;
+        width: 100%;
+        padding-left: 110px;
+      }
+    
+      .logoHamburger {
+        border: 3px solid green;
+        border-radius: 50%;
+        padding: 1px;
+      }
+    
+      .titleHamburger {
+        background-color: brown;
+        font-family: 'Parisienne', cursive;
+        color: white;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+    
+    .presentation {
+        height: 500px;
+        padding: 20px;
+    }
+    
+    
+    @keyframes fadein {
+        from {opacity: 0;} 
+        to {opacity: 1;} 
+    }
+    
+    @keyframes fadein2 {
+        from {opacity: 1;}
+        to {opacity: 0;}
+    }
+    
+    .linkNavBar {
+        display: none;
+    }
+    .Café-Parisien {
+        display: block;
+    }
+
+    .containerCoffes {
+        height: 2000px;
+    }
+
+    .container1 {
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .carousel {
+        width: 300px;
+        height: 300px;
+        margin-left: 60px;
+
+    }
+    
+    #imgsCarousel {
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    .presentation {
+        width: 300px;
+        height: 200px;
+        order: 2;
+        margin-bottom: 300px;
+    }
+
+    .coffeHappy {
+        width: 100%;
+        height: 200px;
+    }
+
+    .paragraphPresentation {
+        width: 300px;
+    }
+
+    .container-title-cafes {
+        display: none;
+    }
+    .buy {
+        display: none;
+    }
+
+   .cappuccino {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    border-radius: 5px;
+    border: solid 2px white;
+   }
+
+   .imgCoffe {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+   }
+
+   .paragraphCoffesv {
+        width: 100%;
+        height: 100%;
+   }
+
+   .containerCoffes {
+    height: 3500px;
+   }
+
+   .food {
+    width: 300px;
+    height: 500px;
+   }
+
+   .logoNav {
+    display: none;
+   }
+   
+   .Café-Parisien {
+        display: none;
+   }
+
+   footer {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 800px;
+    
+   }
+}
+
+
+
+
+
+
+.contentHamburger {
+    display: none;
+}
