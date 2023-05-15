@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+
+        <div class="search-todo">
+            <input type="text" name="search" class="search" placeholder="Pesquisar tarefa">
+            <img src="icons/search.png" class="search-icon">
+        </div>
+
+        <div class="todos-list-container">
+
+            <div class="todo">
+                <img src="icons/close.png" class="check">
+                <h2>Estudar node-js</h2>
+                <p>Essa semana pretendo começar a estudar node-js e esquecer front end por um tempo</p>
+                <div class="priority"><img src="icons/priority-todo.png"></div>
+            </div>
+
+            <div class="todo">
+                <img src="icons/close.png" class="check">
+                <h2>Estudar node-js</h2>
+                <p>Essa semana pretendo começar a estudar node-js e esquecer front end por um tempo</p>
+                <div class="priority"><img src="icons/priority-todo.png"></div>
+            </div>
+
+            <div class="todo">
+                <img src="icons/close.png" class="check">
+                <h2>Estudar node-js</h2>
+                <p>Essa semana pretendo começar a estudar node-js e esquecer front end por um tempo</p>
+                <div class="priority"><img src="icons/priority-todo.png"></div>
+            </div>
+        </div>
+
+        <div class="add-todo">
+            <form class="addForm">
+                <input type="text" name="add" class="add" placeholder="Adcionar tarefa">
+                <br>
+                <input type="text" name="addDescription" placeholder="Discrição da tarefa" class="add addDescription">
+                <br>
+                <button>Adcionar</button>
+            </form>
+                <img src="icons/close.png" width="100px" class="closeAdd">
+            <img src="icons/add-todo.png" class="add-icon">
+        </div>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>

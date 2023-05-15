@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: #1e1e2f;
+    overflow-y: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.todos-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+
+
+.todo {
+    background-color: #27293d;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+    position: relative;
+    margin: 20px;
+}
+
+.todo img {
+    width: 30px;
+}
+
+.priority{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+.check {
+    position: absolute;
+    left: 570px;
+    bottom: 60px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.search-todo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 0 0 0 40px;
+    margin: 20px;
+}
+
+.search {
+    background-color: #27293d;
+    width: 500px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.search-icon {
+    width: 45px;
+    cursor: pointer;
+}
+
+.add-todo {
+    display: flex;
+    margin: 50px;
+}
+
+.addForm button {
+    background-color: #27293d;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+    margin: 0 0 0 250px;
+    padding: 10px 10px 10px 14px;
+}
+
+.addForm button:active {
+    background-color: #313346;
+    transform: scale(1.1);
+}
+
+@keyframes button-animation {
+
+}
+
+
+
+.add {
+    background-color: #27293d;
+    width: 500px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px;
+    animation: add-todo-animation 1s forwards;
+    display: none;
+    margin: 0 0 0 50px;
+}
+
+.add-icon {
+    width: 100px;
+    cursor: pointer;
+}
+
+.closeAdd {
+    display: none;
+    cursor: pointer;
+}
+
+@keyframes add-todo-animation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 500px;
+    }
+}
+
+@keyframes add-todo-animation-close {
+    from {
+        width: 500px;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes remove-button {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1e1e2f;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #27293d;
+    border-radius: 10px;
+}
+
+
+/*    animation: remove-button 0.2s forwards;
+*
+/
+/*
+
+#1e1e2f
+
+#27293d
+
+*/
