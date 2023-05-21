@@ -1,0 +1,149 @@
+body {
+    background: linear-gradient(90deg, rgb(84, 84, 214), rgb(29, 21, 21));
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(71, 61, 61);
+    margin: 80px 0 0 500px;
+    width: 400px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 10px;
+}
+
+input {
+    background-color: rgb(243, 235, 235);
+    box-sizing: border-box;
+    padding: 5px 0 0 20px;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 4px solid rgb(0, 153, 255) ;
+    color: black;
+    
+}
+
+.submit {
+    background-color: rgb(92, 92, 238);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(10, 107, 75);
+}
+h1 {
+    color: white;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+    margin: 0 0 0 60px;
+}
+
+
+.sectionComment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(aqua, pink, violet);
+    border-radius: 50px 0 50px 0;
+    margin: 70px 0 0 500px;
+}
+
+textarea {
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 13px 0 0 5px;
+}
+
+.titleAbaComment {
+    color: white;
+}
+
+.enviar {
+    width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+    color: black;
+    border: 4px solid purple;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgb(0, 162, 255);
+}
+
+textarea:focus {
+    padding: 13px 0 0 30px;
+}
+
+.addComment {
+    margin: 100px 0 0 500px;
+    display: none;
+
+}
+
+img {
+    width: 60px;
+    border-radius: 50%;
+    display: none;
+}
+
+h4 {
+    margin: 0 0 0 45px;
+    color: white;
+}
+
+
+.comment {
+    display: none;
+
+}
+
+.name {
+    color: white;
+}
+
+.avatar {
+    width: 200px;
+    height: 30px;
+}
+.i {
+    padding: 10px;
+}
+
+.h4 {
+    margin-right: 50px;
+}
+
+
